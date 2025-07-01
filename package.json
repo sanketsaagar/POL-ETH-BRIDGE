@@ -1,0 +1,21 @@
+{
+  "name": "pol-eth-bridge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deposit": "node bridge.js deposit",
+    "withdraw": "node bridge.js withdraw",
+    "check": "node bridge.js check",
+    "exit": "node bridge.js exit",
+    "finalize": "node bridge.js finalize"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.0.0",
+    "ethers": "^6.14.4"
+  }
+}
