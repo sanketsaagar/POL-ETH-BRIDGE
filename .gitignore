@@ -59,3 +59,5 @@ Thumbs.db
 # Temporary files
 tmp/
 temp/
+
+#Anything else you need the github to ignore can be added here.
